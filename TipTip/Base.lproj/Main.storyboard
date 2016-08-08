@@ -111,6 +111,7 @@
                         <outlet property="tipSegmentedControll" destination="B6l-KS-Cj4" id="zqw-W7-5hs"/>
                         <outlet property="tipTitleLabel" destination="AEe-bz-7RD" id="NeE-cP-ewt"/>
                         <outlet property="totalLabel" destination="xbH-Ci-YNY" id="zov-1x-meU"/>
+                        <outlet property="totalTitleLabel" destination="cBT-Vv-G1L" id="HTj-PU-3Tt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

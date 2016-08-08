@@ -16,11 +16,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     
     @IBOutlet weak var tipTitleLabel: UILabel!
+    @IBOutlet weak var totalTitleLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.tipTitleLabel.text = NSLocalizedString("MainPage.TipTitleLabel", comment: "This is the Label talking about the tip")
+        self.totalTitleLabel.text = NSLocalizedString("total", comment: "This is the title for total")
     }
 
     @IBAction func textFieldChanged(sender: AnyObject) {
@@ -37,18 +39,23 @@ class ViewController: UIViewController {
             
             if self.tipSegmentedControll.selectedSegmentIndex == 0 {
                 tipPercentage = 0.10
-            }
-            if self.tipSegmentedControll.selectedSegmentIndex == 1 {
-                tipPercentage = 0.15
             } else {
-                tipPercentage = 0.20
+                if self.tipSegmentedControll.selectedSegmentIndex == 1 {
+                    tipPercentage = 0.15
+                } else {
+                    tipPercentage = 0.20
+                }
             }
+            
             
             let tip = bill * tipPercentage
             let total = tip + bill
             
-            self.tipLabel.text = "$\(tip)"
-            self.totalLabel.text = "$\(total)"
+            let currencyFormatter = NSNumberFormatter()
+            currencyFormatter.numberStyle = .CurrencyStyle
+            
+            self.tipLabel.text = currencyFormatter.stringFromNumber(tip)
+            self.totalLabel.text = currencyFormatter.stringFromNumber(total)
         }
     }
 }
