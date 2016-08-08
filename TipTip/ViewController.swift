@@ -17,12 +17,14 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tipTitleLabel: UILabel!
     @IBOutlet weak var totalTitleLabel: UILabel!
+    @IBOutlet weak var tipPercentageTitleLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.tipTitleLabel.text = NSLocalizedString("MainPage.TipTitleLabel", comment: "This is the Label talking about the tip")
         self.totalTitleLabel.text = NSLocalizedString("total", comment: "This is the title for total")
+        self.tipPercentageTitleLabel.text = NSLocalizedString("percentage", comment: "This is the title for percentage")
     }
 
     @IBAction func textFieldChanged(sender: AnyObject) {

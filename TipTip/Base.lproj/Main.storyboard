@@ -108,6 +108,7 @@
                     <connections>
                         <outlet property="billTextField" destination="qRD-3F-o2Q" id="o73-Dw-2Eu"/>
                         <outlet property="tipLabel" destination="tE9-T6-VTc" id="HzR-hB-zds"/>
+                        <outlet property="tipPercentageTitleLabel" destination="NFJ-S2-HXB" id="nDy-nt-n6d"/>
                         <outlet property="tipSegmentedControll" destination="B6l-KS-Cj4" id="zqw-W7-5hs"/>
                         <outlet property="tipTitleLabel" destination="AEe-bz-7RD" id="NeE-cP-ewt"/>
                         <outlet property="totalLabel" destination="xbH-Ci-YNY" id="zov-1x-meU"/>
