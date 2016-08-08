@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Tip:"; ObjectID = "AEe-bz-7RD"; */
+"AEe-bz-7RD.text" = "Tip:";
+
+/* Class = "UISegmentedControl"; B6l-KS-Cj4.segmentTitles[0] = "10%"; ObjectID = "B6l-KS-Cj4"; */
+"B6l-KS-Cj4.segmentTitles[0]" = "10%";
+
+/* Class = "UISegmentedControl"; B6l-KS-Cj4.segmentTitles[1] = "15%"; ObjectID = "B6l-KS-Cj4"; */
+"B6l-KS-Cj4.segmentTitles[1]" = "15%";
+
+/* Class = "UISegmentedControl"; B6l-KS-Cj4.segmentTitles[2] = "20%"; ObjectID = "B6l-KS-Cj4"; */
+"B6l-KS-Cj4.segmentTitles[2]" = "20%";
+
+/* Class = "UILabel"; text = "Tip Percentage:"; ObjectID = "NFJ-S2-HXB"; */
+"NFJ-S2-HXB.text" = "Tip Percentage:";
+
+/* Class = "UILabel"; text = "Bill:"; ObjectID = "Nuk-kJ-aBh"; */
+"Nuk-kJ-aBh.text" = "紙幣:";
+
+/* Class = "UILabel"; text = "Total:"; ObjectID = "cBT-Vv-G1L"; */
+"cBT-Vv-G1L.text" = "Total:";
+
+/* Class = "UITextField"; placeholder = "100"; ObjectID = "qRD-3F-o2Q"; */
+"qRD-3F-o2Q.placeholder" = "100";
+
+/* Class = "UILabel"; text = "$15.00"; ObjectID = "tE9-T6-VTc"; */
+"tE9-T6-VTc.text" = "$15.00";
+
+/* Class = "UILabel"; text = "$115.00"; ObjectID = "xbH-Ci-YNY"; */
+"xbH-Ci-YNY.text" = "$115.00";

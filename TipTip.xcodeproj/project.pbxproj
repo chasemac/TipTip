@@ -22,6 +22,10 @@
 		0E5CCCFD1D58EBD30016040B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E5CCD001D58EBD30016040B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E5CCD021D58EBD30016040B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E5CCD081D5904360016040B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		0E5CCD091D5904360016040B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0E5CCD0A1D59045D0016040B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		0E5CCD0B1D59045D0016040B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				0E5CCCFB1D58EBD30016040B /* Base */,
+				0E5CCD081D5904360016040B /* es */,
+				0E5CCD0A1D59045D0016040B /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,6 +161,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				0E5CCD001D58EBD30016040B /* Base */,
+				0E5CCD091D5904360016040B /* es */,
+				0E5CCD0B1D59045D0016040B /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
